@@ -1,0 +1,546 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ADC9B16B1DEEA9E500A26543 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ADC9B16A1DEEA9E500A26543 /* main.m */; };
+		ADC9B16E1DEEA9E500A26543 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ADC9B16D1DEEA9E500A26543 /* AppDelegate.m */; };
+		ADC9B1711DEEA9E500A26543 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ADC9B1701DEEA9E500A26543 /* ViewController.m */; };
+		ADC9B1741DEEA9E500A26543 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ADC9B1721DEEA9E500A26543 /* Main.storyboard */; };
+		ADC9B1761DEEA9E500A26543 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ADC9B1751DEEA9E500A26543 /* Assets.xcassets */; };
+		ADC9B1791DEEA9E500A26543 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ADC9B1771DEEA9E500A26543 /* LaunchScreen.storyboard */; };
+		ADC9B1841DEEA9E500A26543 /* RadarTests.m in Sources */ = {isa = PBXBuildFile; fileRef = ADC9B1831DEEA9E500A26543 /* RadarTests.m */; };
+		ADC9B18F1DEEA9E500A26543 /* RadarUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = ADC9B18E1DEEA9E500A26543 /* RadarUITests.m */; };
+		ADC9B19E1DEEAB8500A26543 /* RadarView.m in Sources */ = {isa = PBXBuildFile; fileRef = ADC9B19D1DEEAB8500A26543 /* RadarView.m */; };
+		ADC9B1A11DEEAC4800A26543 /* icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = ADC9B19F1DEEAC4800A26543 /* icon@2x.png */; };
+		ADC9B1A21DEEAC4800A26543 /* icon@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = ADC9B1A01DEEAC4800A26543 /* icon@3x.png */; };
+		ADC9B1A41DEEAFCB00A26543 /* pipeipic.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ADC9B1A31DEEAFCB00A26543 /* pipeipic.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		ADC9B1801DEEA9E500A26543 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ADC9B15E1DEEA9E500A26543 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ADC9B1651DEEA9E500A26543;
+			remoteInfo = Radar;
+		};
+		ADC9B18B1DEEA9E500A26543 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ADC9B15E1DEEA9E500A26543 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ADC9B1651DEEA9E500A26543;
+			remoteInfo = Radar;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		ADC9B1661DEEA9E500A26543 /* Radar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Radar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ADC9B16A1DEEA9E500A26543 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		ADC9B16C1DEEA9E500A26543 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		ADC9B16D1DEEA9E500A26543 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		ADC9B16F1DEEA9E500A26543 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		ADC9B1701DEEA9E500A26543 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		ADC9B1731DEEA9E500A26543 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		ADC9B1751DEEA9E500A26543 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ADC9B1781DEEA9E500A26543 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		ADC9B17A1DEEA9E500A26543 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ADC9B17F1DEEA9E500A26543 /* RadarTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RadarTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ADC9B1831DEEA9E500A26543 /* RadarTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RadarTests.m; sourceTree = "<group>"; };
+		ADC9B1851DEEA9E500A26543 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ADC9B18A1DEEA9E500A26543 /* RadarUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RadarUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ADC9B18E1DEEA9E500A26543 /* RadarUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RadarUITests.m; sourceTree = "<group>"; };
+		ADC9B1901DEEA9E500A26543 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ADC9B19C1DEEAB8500A26543 /* RadarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RadarView.h; sourceTree = "<group>"; };
+		ADC9B19D1DEEAB8500A26543 /* RadarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RadarView.m; sourceTree = "<group>"; };
+		ADC9B19F1DEEAC4800A26543 /* icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon@2x.png"; sourceTree = "<group>"; };
+		ADC9B1A01DEEAC4800A26543 /* icon@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon@3x.png"; sourceTree = "<group>"; };
+		ADC9B1A31DEEAFCB00A26543 /* pipeipic.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = pipeipic.jpg; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ADC9B1631DEEA9E500A26543 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADC9B17C1DEEA9E500A26543 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADC9B1871DEEA9E500A26543 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ADC9B15D1DEEA9E500A26543 = {
+			isa = PBXGroup;
+			children = (
+				ADC9B1681DEEA9E500A26543 /* Radar */,
+				ADC9B1821DEEA9E500A26543 /* RadarTests */,
+				ADC9B18D1DEEA9E500A26543 /* RadarUITests */,
+				ADC9B1671DEEA9E500A26543 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ADC9B1671DEEA9E500A26543 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ADC9B1661DEEA9E500A26543 /* Radar.app */,
+				ADC9B17F1DEEA9E500A26543 /* RadarTests.xctest */,
+				ADC9B18A1DEEA9E500A26543 /* RadarUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ADC9B1681DEEA9E500A26543 /* Radar */ = {
+			isa = PBXGroup;
+			children = (
+				ADC9B1A31DEEAFCB00A26543 /* pipeipic.jpg */,
+				ADC9B19F1DEEAC4800A26543 /* icon@2x.png */,
+				ADC9B1A01DEEAC4800A26543 /* icon@3x.png */,
+				ADC9B16C1DEEA9E500A26543 /* AppDelegate.h */,
+				ADC9B16D1DEEA9E500A26543 /* AppDelegate.m */,
+				ADC9B16F1DEEA9E500A26543 /* ViewController.h */,
+				ADC9B1701DEEA9E500A26543 /* ViewController.m */,
+				ADC9B19C1DEEAB8500A26543 /* RadarView.h */,
+				ADC9B19D1DEEAB8500A26543 /* RadarView.m */,
+				ADC9B1721DEEA9E500A26543 /* Main.storyboard */,
+				ADC9B1751DEEA9E500A26543 /* Assets.xcassets */,
+				ADC9B1771DEEA9E500A26543 /* LaunchScreen.storyboard */,
+				ADC9B17A1DEEA9E500A26543 /* Info.plist */,
+				ADC9B1691DEEA9E500A26543 /* Supporting Files */,
+			);
+			path = Radar;
+			sourceTree = "<group>";
+		};
+		ADC9B1691DEEA9E500A26543 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				ADC9B16A1DEEA9E500A26543 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		ADC9B1821DEEA9E500A26543 /* RadarTests */ = {
+			isa = PBXGroup;
+			children = (
+				ADC9B1831DEEA9E500A26543 /* RadarTests.m */,
+				ADC9B1851DEEA9E500A26543 /* Info.plist */,
+			);
+			path = RadarTests;
+			sourceTree = "<group>";
+		};
+		ADC9B18D1DEEA9E500A26543 /* RadarUITests */ = {
+			isa = PBXGroup;
+			children = (
+				ADC9B18E1DEEA9E500A26543 /* RadarUITests.m */,
+				ADC9B1901DEEA9E500A26543 /* Info.plist */,
+			);
+			path = RadarUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ADC9B1651DEEA9E500A26543 /* Radar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ADC9B1931DEEA9E500A26543 /* Build configuration list for PBXNativeTarget "Radar" */;
+			buildPhases = (
+				ADC9B1621DEEA9E500A26543 /* Sources */,
+				ADC9B1631DEEA9E500A26543 /* Frameworks */,
+				ADC9B1641DEEA9E500A26543 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Radar;
+			productName = Radar;
+			productReference = ADC9B1661DEEA9E500A26543 /* Radar.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ADC9B17E1DEEA9E500A26543 /* RadarTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ADC9B1961DEEA9E500A26543 /* Build configuration list for PBXNativeTarget "RadarTests" */;
+			buildPhases = (
+				ADC9B17B1DEEA9E500A26543 /* Sources */,
+				ADC9B17C1DEEA9E500A26543 /* Frameworks */,
+				ADC9B17D1DEEA9E500A26543 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ADC9B1811DEEA9E500A26543 /* PBXTargetDependency */,
+			);
+			name = RadarTests;
+			productName = RadarTests;
+			productReference = ADC9B17F1DEEA9E500A26543 /* RadarTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		ADC9B1891DEEA9E500A26543 /* RadarUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ADC9B1991DEEA9E500A26543 /* Build configuration list for PBXNativeTarget "RadarUITests" */;
+			buildPhases = (
+				ADC9B1861DEEA9E500A26543 /* Sources */,
+				ADC9B1871DEEA9E500A26543 /* Frameworks */,
+				ADC9B1881DEEA9E500A26543 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ADC9B18C1DEEA9E500A26543 /* PBXTargetDependency */,
+			);
+			name = RadarUITests;
+			productName = RadarUITests;
+			productReference = ADC9B18A1DEEA9E500A26543 /* RadarUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ADC9B15E1DEEA9E500A26543 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = YUMO;
+				TargetAttributes = {
+					ADC9B1651DEEA9E500A26543 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+					};
+					ADC9B17E1DEEA9E500A26543 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = ADC9B1651DEEA9E500A26543;
+					};
+					ADC9B1891DEEA9E500A26543 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = ADC9B1651DEEA9E500A26543;
+					};
+				};
+			};
+			buildConfigurationList = ADC9B1611DEEA9E500A26543 /* Build configuration list for PBXProject "Radar" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ADC9B15D1DEEA9E500A26543;
+			productRefGroup = ADC9B1671DEEA9E500A26543 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ADC9B1651DEEA9E500A26543 /* Radar */,
+				ADC9B17E1DEEA9E500A26543 /* RadarTests */,
+				ADC9B1891DEEA9E500A26543 /* RadarUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ADC9B1641DEEA9E500A26543 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADC9B1A41DEEAFCB00A26543 /* pipeipic.jpg in Resources */,
+				ADC9B1791DEEA9E500A26543 /* LaunchScreen.storyboard in Resources */,
+				ADC9B1A11DEEAC4800A26543 /* icon@2x.png in Resources */,
+				ADC9B1A21DEEAC4800A26543 /* icon@3x.png in Resources */,
+				ADC9B1761DEEA9E500A26543 /* Assets.xcassets in Resources */,
+				ADC9B1741DEEA9E500A26543 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADC9B17D1DEEA9E500A26543 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADC9B1881DEEA9E500A26543 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ADC9B1621DEEA9E500A26543 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADC9B1711DEEA9E500A26543 /* ViewController.m in Sources */,
+				ADC9B16E1DEEA9E500A26543 /* AppDelegate.m in Sources */,
+				ADC9B16B1DEEA9E500A26543 /* main.m in Sources */,
+				ADC9B19E1DEEAB8500A26543 /* RadarView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADC9B17B1DEEA9E500A26543 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADC9B1841DEEA9E500A26543 /* RadarTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADC9B1861DEEA9E500A26543 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADC9B18F1DEEA9E500A26543 /* RadarUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ADC9B1811DEEA9E500A26543 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ADC9B1651DEEA9E500A26543 /* Radar */;
+			targetProxy = ADC9B1801DEEA9E500A26543 /* PBXContainerItemProxy */;
+		};
+		ADC9B18C1DEEA9E500A26543 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ADC9B1651DEEA9E500A26543 /* Radar */;
+			targetProxy = ADC9B18B1DEEA9E500A26543 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		ADC9B1721DEEA9E500A26543 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ADC9B1731DEEA9E500A26543 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		ADC9B1771DEEA9E500A26543 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ADC9B1781DEEA9E500A26543 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ADC9B1911DEEA9E500A26543 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		ADC9B1921DEEA9E500A26543 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ADC9B1941DEEA9E500A26543 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Radar/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = YUMO.Radar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		ADC9B1951DEEA9E500A26543 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Radar/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = YUMO.Radar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		ADC9B1971DEEA9E500A26543 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = RadarTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = YUMO.RadarTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Radar.app/Radar";
+			};
+			name = Debug;
+		};
+		ADC9B1981DEEA9E500A26543 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = RadarTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = YUMO.RadarTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Radar.app/Radar";
+			};
+			name = Release;
+		};
+		ADC9B19A1DEEA9E500A26543 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = RadarUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = YUMO.RadarUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Radar;
+			};
+			name = Debug;
+		};
+		ADC9B19B1DEEA9E500A26543 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = RadarUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = YUMO.RadarUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Radar;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ADC9B1611DEEA9E500A26543 /* Build configuration list for PBXProject "Radar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ADC9B1911DEEA9E500A26543 /* Debug */,
+				ADC9B1921DEEA9E500A26543 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ADC9B1931DEEA9E500A26543 /* Build configuration list for PBXNativeTarget "Radar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ADC9B1941DEEA9E500A26543 /* Debug */,
+				ADC9B1951DEEA9E500A26543 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		ADC9B1961DEEA9E500A26543 /* Build configuration list for PBXNativeTarget "RadarTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ADC9B1971DEEA9E500A26543 /* Debug */,
+				ADC9B1981DEEA9E500A26543 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		ADC9B1991DEEA9E500A26543 /* Build configuration list for PBXNativeTarget "RadarUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ADC9B19A1DEEA9E500A26543 /* Debug */,
+				ADC9B19B1DEEA9E500A26543 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ADC9B15E1DEEA9E500A26543 /* Project object */;
+}
